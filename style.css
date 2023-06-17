@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-image: url(https://media.istockphoto.com/id/868098786/photo/thermometer-on-snow-shows-low-temperatures-zero-low-temperatures-in-degrees-celsius-and.webp?b=1&s=170667a&w=0&k=20&c=n21SIzH1emvYJmePa_kg8r0AcdVu2vTOk327qk4tYzE=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#convert {
+    background-color: #0cb6c9;
+  }
+  #convert:hover {
+    background-color: #c9d5d5;
+  }
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(8, 4, 4);
+  }
+  input {
+    display: block;
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 2em;
+    color: #090501;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
